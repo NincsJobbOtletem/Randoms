@@ -1,0 +1,51 @@
+Dia 2,3 Dávid
+
+Ebben a prezentációban az általunk létrehozott webshopról lész szó.Az szfm egy élelmiszer webshopnak készült ahol egy cég hirdetheti saját termékeit képekkel és leírással, valamint változtathat azokon és törölheti őket,ami regisztrált illetve nem regisztrált felhasználók szármára elérhető és megrendelhető,a felhasználó kiválaszthatja kedvenc termékeit és belerakhatja a kosárba azt amíg tovább böngészik az oldalon.
+Az általunk fejlesztett websopnál el szerettük volna érni a következő célokat:
+-könnyű kezelhetőség
+-esztétikus kinézetű oldal
+-hirdetések megkönnyítése
+-Több felületről való elérhetőség.
+Ki szeretnénk térni a trello felépítésére a sprint menetére illetve a munka felosztására is.
+
+Dia 4 Márk
+(Trellot mutatjuk közben)
+
+A fejlesztés során a trello segítségével tudtuk nyilván tartani a haladást.A tervezés az idea oszlop feltöltésével kezdődött amiben találhatjuk a megrendelő alap ötleteit és elképzeléseit.Ezt követően ezeket az ötleteket szétbontottuk epikekre ami tartalmazza a megfogható célokat a könnyebb haladás érdekében.
+A backlog tartalmazza a szétbontott epikeket amiből létrejöttek a user illetve a tech storyk.A user story a felhasználói követelményeket tartalmazza,a tech story pedig a fejlesztői követelményeket.
+Az in progress részben találhatóak az éppen fejlesztés alatt álló funkciók,amiből ha egy ticket elkészűl akkor átkerül az in review állapotba ami azt jelenti,hogy a csapat egy másik tagja ellenőrizni fogja az elkészített kódot.Ami ha átmegy a revew-n akkor egy tesztelői feladat lesz belőle ami az in QA oszlop jelent,ezt a feladatot a tesztelő fogja végezni.Ha sikeresen átmegy a teszten a funkció akkor a ticket a done oszlopba kerül,ha pedig még hibás akkor visszakerül a fejlesztőhöz javításra.
+
+Dia 5 István
+
+Az általunk írt kódok a github repóba kerültek feltöltésre ahol minden projektben résztvevő elérheti azt.Mindenki egy változtatás előtt egy uj branchet hozott létre aminek a címe azonos volt a trello ticket címével és számával.Feltöltést követően a commitolt funkció egy kód review-n esett át amit a tesztelés követett,sikeres működés esetén mergelére került sor,ami azt jelenti,hogy bekerül az uj funkció a fő ágba ami a githubon a master vagy main ágat jelenti.
+
+Dia 6 Patrik
+
+A projekt során körforgásban dolgoztunk,azért hogy mindenki beletekinthessen különböző poziciókba mint például a fejlesztő,tesztelő,piac kutató.Egyenlő részeket tudjunk vállalni midhárom területen tapasztalatot gyüjtsön azokon.
+A csapat közös megegyezés alapján 3 hetes sprintekben dolgozott amiből kettőn túl vagyunk és az eredménye a trellon látható valamint az alkalmazás felületén.Azok a funkciók amik nem kerültek a done oszlopba azok átkerültek a következő sprintbe.Heti 1-2 teams meetingen vettünk részt,ahol átbeszéltük az egyéni haladást,problémákat illetve a hátralévő teendőket is részleteztük.Emellett chat formájában vagy személyes találkozókon is kommunikáltunk.
+
+Dia 7 Dávid
+Admin kezelőfelület aminek a következő a szerepe A rendszerben nyilvántartott tárgyakat az admin felhasználó  egy külön felületen módosíthatja illetve új termékeket adhat hozzá és törölheti azokat.
+Az adott felület csak akkor elérhető ha adminként vagyunk bejelentkezve automatikusan.Ezen a felületen Szerkeszthetjük a már fent lévő tárgyakat illetve hozzáadhatunk és törülhetünk.Ezekből a funkciókból láthatjuk,hogy a kilépési feltételek is teljesülnek és emiatt bekerülhetett a done oszlopba
+
+Dia 8 István
+Global header:Az oldalon megjelenik a fent látható fejléc ami tartalmazza az oldalon való navigációs gombokat.Megtalálható az admin felületen illetve a felhasználói felületen is.Tartalmazza a következő gombokat:...
+Teljesülnek a kilépési feltételek miszerint folyamatosan látható az oldal tetején tartalmazza a megfelelő gombokat és sikeres a navigáció is.
+
+Dia 9 Márk
+About oldal ami tartalmaz egy rövid leírást az oldalról ami segítségével a felhasználókat tájékoztatjuk arról,hogy mi is a szerepe az oldalnak.A kilépési feltételek is teljesülnek,miszerint az elvárt url-en találhatjuk meg és ez elérhető a rólunk gomb megnyomásával.
+Error page: Ha a weboldalon egy rossz urlt-t próbálunk elérni akkor az automatikusan átdob minket erre az oldalra amin tájékoztatást kapunk arról,hogy nem létező helyre próbáltunk navigálni és tartalmaz egy linket ami vissza irányít minket a főoldalra.
+
+Dia 10 Patrik
+
+A főoldal nem regisztrált felhasználóknak tartalmazza azt az oldalt amire bárki fellátogathat regisztráció nélkül. A rendszerben több tárgyat is nyilvántartunk, ehhez szükség van egy oladra ahol kilistázódnak a hirdetett tárgyak és lehet köztük böngészni. A kilépési feltételek is teljesülnek miszerint az adott url-en érjük el és megjelenik a kosár gomb is az oldalon.
+
+Dia 11
+Még pár szó az általunk használt eszközökröl.
+A vue js re a az általunk preferált programozási nyelv miatt esett a választás ami a javascript.
+Ezért egy ehhez kompatibis backend frameworköt választottunk amivel egyszerűen létrehozhattuk a skeltont amivel elkezdhettük a közös munkát.
+Adatbázisnak a Firebasere esett a választás az egyszerű implementáció és a tárolás tipusa okán ami json
+Dia 12
+-__-
+
+
